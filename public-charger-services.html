@@ -1,0 +1,565 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ArthEV - Charging Station</title>
+    <!--favicon icon-->
+    <link rel="shortcut icon" href="images/logos/header-logo.png">
+    <!--bootstrap css-->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <!--icon css -->
+    <link rel="stylesheet" href="fonts/font-awesome/css/all.min.css">
+    <link rel="stylesheet" href="fonts/flaticon/font/flaticon.css">
+    <link rel="stylesheet" href="css/ionicons.min.css">
+    <link rel="stylesheet" href="fonts/themify-icons/themify-icons.css">
+    <!--style css-->
+    <link rel="stylesheet" href="css/style.css">
+    <!--responsive css-->
+    <link rel="stylesheet" href="css/responsive.css">
+</head>
+
+<body>
+
+    <!--Loading Start-->
+    <div id="pq-loading">
+        <div id="pq-loading-center">
+            <img src="images/logos/header-logo.png" alt="loading">
+        </div>
+    </div>
+    <!--Loading End-->
+
+    <!--Header Start-->
+    <header id="pq-header" class="pq-header-default">
+        <div class="pq-top-header">
+            <div class="container">
+                <div class="row flex-row-reverse">
+                    <div class="col-md-6 text-right">
+                        <div class="pq-header-social text-right">
+                            <ul>
+                                <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+                                <li><a href="#"><i class="fab fa-github"></i></a></li>
+                                <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+                                <li><a href="#"><i class="fab fa-skype"></i></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="pq-header-contact ">
+                            <ul>
+                                <li>
+                                    <a href="tel:+1800001658"><i class="fas fa-phone"></i>
+                                        <span>+1800-001-658</span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="mailto:info@peacefuldesign.com">
+                                        <i class="fas fa-envelope"></i><span>info@arthev.com</span>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="pq-bottom-header pq-has-sticky">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12">
+                        <nav class="navbar navbar-expand-lg navbar-light">
+                            <a class="navbar-brand" href="index.html">
+                                <img class="img-fluid logo" src="images/logos/header-logo.png" alt="ecofuel">
+                            </a>
+                            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                                <div id="pq-menu-contain" class="pq-menu-contain">
+                                    <ul id="pq-main-menu" class="navbar-nav ml-auto">
+                                        <li class="menu-item">
+                                            <a href="index.html" aria-current="page">Home</a>
+                                            <!-- <i class="fa fa-chevron-down pq-submenu-icon"></i>
+                                            <ul class="sub-menu">
+                                                <li class="menu-item current-menu-item">
+                                                    <a href="home-default.html" aria-current="page">Home Default</a>
+                                                </li>
+                                                <li class="menu-item">
+                                                    <a href="charging-station.html">Charging Station</a>
+                                                </li>
+                                                <li class="menu-item">
+                                                    <a href="electric-car.html">Electric Car</a>
+                                                </li>
+                                                <li class="menu-item">
+                                                    <a href="electric-car-dark.html">Electric Car Dark</a>
+                                                </li>
+                                                <li class="menu-item">
+                                                    <a href="electric-car-2.html">Electric Car Service</a>
+                                                </li>
+                                                <li class="menu-item">
+                                                    <a href="electric-car-2-dark.html">Electric Car Service Dark</a>
+                                                </li>
+                                                <li class="menu-item">
+                                                    <a href="electric-bike.html">Electric Bike</a>
+                                                </li>
+                                                <li class="menu-item">
+                                                    <a href="electric-bike-dark.html">Electric Bike Dark</a>
+                                                </li>
+                                            </ul> -->
+                                        </li>
+                                        <li class="menu-item">
+                                            <a href="about-us.html">About Us</a>
+                                        </li>
+                                        <!-- <li class="menu-item">
+                                            <a href="#">Page</a><i class="fa fa-chevron-down pq-submenu-icon"></i>
+                                            <ul class="sub-menu">
+                                                <li class="menu-item">
+                                                    <a href="about-us.html">About Us</a>
+                                                </li>
+                                                <li class="menu-item">
+                                                    <a href="our-services.html">Our Services</a>
+                                                </li>
+                                                <li class="menu-item">
+                                                    <a href="pricing-plan.html">Pricing Plan</a>
+                                                </li>
+                                                <li class="menu-item">
+                                                    <a href="gallery.html">Gallery</a>
+                                                </li>
+                                                <li class="menu-item">
+                                                    <a href="faq.html">Faq</a>
+                                                </li>
+                                                <li class="menu-item">
+                                                    <a href="contact-us.html">Contact Us</a>
+                                                </li>
+                                                <li class="menu-item">
+                                                    <a href="404.html">404</a>
+                                                </li>
+                                            </ul>
+                                        </li> -->
+                                        <li class="menu-item current-menu-item menu-item-has-children">
+                                            <a href="#">Services</a><i class="fa fa-chevron-down pq-submenu-icon"></i>
+                                            <ul class="sub-menu">
+                                                <li class="menu-item">
+                                                    <a href="home-charger-services.html">Home charging</a>
+                                                </li>
+                                                <li class="menu-item current-menu-item menu-item-has-children">
+                                                    <a href="public-charger-services.html">Public stations</a>
+                                                </li>
+                                                <li class="menu-item">
+                                                    <a href="commarcial-driver-services.html">Commercial Systems</a>
+                                                </li>
+                                            </ul>
+                                        </li>
+                                        <li class="menu-item">
+                                            <a href="gallery.html">Our Work</a>
+                                        </li>
+                                        <li class="menu-item">
+                                            <a href="contact-us.html">Contact Us</a>
+                                        </li>
+                                        <!-- <li class="menu-item">
+                                            <a href="#">Blog</a><i class="fa fa-chevron-down pq-submenu-icon"></i>
+                                            <ul class="sub-menu">
+                                                <li class="menu-item menu-item-has-children">
+                                                    <a href="#">Grid Style</a><i
+                                                        class="fa fa-chevron-down pq-submenu-icon"></i>
+                                                    <ul class="sub-menu">
+                                                        <li class="menu-item">
+                                                            <a href="one-column-blog.html">One Column Blog</a>
+                                                        </li>
+                                                        <li class="menu-item">
+                                                            <a href="two-column-blog.html">Two Column Blog</a>
+                                                        </li>
+                                                        <li class="menu-item">
+                                                            <a href="three-column-blog.html">Three Column Blog</a>
+                                                        </li>
+                                                    </ul>
+                                                </li>
+                                                <li class="menu-item menu-item-has-children">
+                                                    <a href="#">Blog Sidebar</a><i
+                                                        class="fa fa-chevron-down pq-submenu-icon"></i>
+                                                    <ul class="sub-menu">
+                                                        <li class="menu-item">
+                                                            <a href="blog-left-sidebar.html">Blog Left Sidebar</a>
+                                                        </li>
+                                                        <li class="menu-item">
+                                                            <a href="blog-right-sidebar.html">Blog Right sidebar</a>
+                                                        </li>
+                                                    </ul>
+                                                </li>
+                                                <li class="menu-item">
+                                                    <a href="evs-play-an-important-role-in-transport.html">Blog
+                                                        Single</a>
+                                                </li>
+                                            </ul>
+                                        </li> -->
+                                    </ul>
+                                </div>
+                            </div>
+                            <!-- <div class="pq-menu-search-block">
+                                <a href="javascript:void(0)" id="pq-seacrh-btn"><i class="fa fa-search"></i></a>
+                                <div class="pq-search-form">
+                                    <form role="search" method="get" class="search-form"
+                                        action="https://peacefulqode.com/themes/ecofuel/html/home-default.html">
+                                        <label>
+                                            <span class="screen-reader-text">Search for:</span>
+                                            <input type="search" class="search-field" placeholder="Search …" value=""
+                                                name="s">
+                                        </label>
+                                        <button type="submit" class="search-submit">
+                                            <span class="screen-reader-text">Search</span>
+                                        </button>
+                                    </form>
+                                </div>
+                            </div> -->
+                            <a href="#" class="pq-button">
+                                <div class="pq-button-block">
+                                    <span class="pq-button-line-left"></span>
+                                    <span class="pq-button-text">Scan me</span>
+                                    <span class="pq-button-line-right"></span>
+                                    <i class="ion ion-android-arrow-dropright"></i>
+                                </div>
+                            </a>
+                            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                                aria-expanded="false" aria-label="Toggle navigation">
+                                <i class="fas fa-bars"></i>
+                            </button>
+                        </nav>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!--Header End-->
+
+    <!--Breadcrumb Start-->
+    <div class="pq-breadcrumb pq-bg-img-2">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-sm-12">
+                    <nav aria-label="breadcrumb">
+                        <div class="pq-breadcrumb-title">
+                            <h2>Public stations Services</h2>
+                        </div>
+                        <div class="pq-breadcrumb-container">
+                            <ol class="breadcrumb">
+                                <li class="breadcrumb-item">
+                                    <a href="index.html">
+                                        <i class="fas fa-home me-2"></i>Home
+                                    </a>
+                                </li>
+                                <li class="breadcrumb-item active">Public stations</li>
+                            </ol>
+                        </div>
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--Breadcrumb End-->
+
+    <!--All Services Start-->
+    <section class="all-services">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4">
+                    <div class="pq-widget pq-bg-grey">
+                        <div class="pq-widget pq-widget-port p-0">
+                            <h4 class="footer-title">Our Services</h4>
+                            <div class="menu-service-menu-container">
+                                <ul id="menu-service-menu" class="menu">
+                                    <li>
+                                        <a href="home-charger-services.html" aria-current="page">Home charging</a>
+                                    </li>
+
+                                    <li class="current-menu-item">
+                                        <a href="public-charger-services.html" aria-current="page">Public stations</a>
+                                    </li>
+
+                                    <li>
+                                        <a href="commarcial-driver-services.html" aria-current="page">Commercial Systems</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div id="media-image" class="pq-mb-30">
+                        <a href="contact-us.html"><img src="images/1.jpg" alt=""></a>
+                    </div>
+                    <!-- <div class="pq-widget pq-bg-grey">
+                        <div class="pq-service-form-box">
+                            <h4 class="footer-title">Contact Us</h4>
+                            <form class="pq-applyform side-bar-form" novalidate>
+                                <div class="row">
+                                    <div class="col-lg-12">
+                                        <input type="text" id="first-name" class="pq-bg-white name-field"
+                                            placeholder="Enter name" required>
+                                    </div>
+                                    <div class="col-lg-12">
+                                        <input type="text" id="e-mail" class="pq-bg-white e-mail-field"
+                                            placeholder="Enter Email" required>
+                                    </div>
+                                    <div class="col-lg-12">
+                                        <textarea id="message" cols="40" rows="10" class="pq-bg-white"
+                                            placeholder="Enter Subject" required></textarea>
+                                    </div>
+                                    <div class="col-lg-12">
+                                        <a class="pq-button form-btn">
+                                            <div class="pq-button-block">
+                                                <span class="pq-button-text">Send Message</span>
+                                            </div>
+                                        </a>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                    </div> -->
+                </div>
+                <div class="col-lg-8 mt-4 mt-lg-0">
+                    <img src="images/blog/8.jpg" alt="">
+                    <h2 class="pq-heading mt-4">Charging Stations Will Provide AC Power</h2>
+                    <p>It is a long established fact that a reader will be distracted by the readable content of a page
+                        when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal
+                        distribution of letters, as opposed to using ‘Content here, content here’, English. Many desktop
+                        publishing packages and web page editors now use Lorem Ipsum as their default model text, and a
+                        search for ‘lorem ipsum’ will.</p>
+                    <div class="row">
+                        <div class="col-lg-6 col-md-6 col-sm-6">
+                            <div class="pq-icon-box pq-style-8">
+                                <div class="pq-icon">
+                                    <a href="#"><i class="flaticon-ev"></i></a>
+                                </div>
+                                <div class="pq-icon-box-content">
+                                    <h5 class="pq-fancy-box-title">Fast Reliable Services</h5>
+                                    <p>It is a long established fact that a reader a page when layout.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-6 col-md-6 col-sm-6 mt-5 mt-sm-0">
+                            <div class="pq-icon-box pq-style-8 pq-ml-30">
+                                <div class="pq-icon">
+                                    <a href="#"><i class="flaticon-electric-car-3"></i></a>
+                                </div>
+                                <div class="pq-icon-box-content">
+                                    <h5 class="pq-icon-box-title">Flexible Services</h5>
+                                    <p>It is a long established fact that a reader a page when layout.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row mt-5 align-items-center">
+                        <div class="col-lg-6 p-0">
+                            <img src="images/service-pages/1.jpg" alt="">
+                        </div>
+                        <div class="col-lg-6">
+                            <h2 class="pq-about-title mt-4 mt-lg-0">Smart AC Chargers</h2>
+                            <p class="mb-0">It is a long established fact that a reader will be distracted by the
+                                readable content of a page when looking at its layout. The point of using Lorem Ipsum is
+                                that it has a more-or-less normal distribution of letters,it look like readable English.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="row mt-5 align-items-center">
+                        <div class="col-lg-6 col-md-6 col-sm-6">
+                            <div class="pq-icon-box pq-style-8">
+                                <div class="pq-icon">
+                                    <a href="#"><i class="flaticon-electric-car-2"></i></a>
+                                </div>
+                                <div class="pq-icon-box-content">
+                                    <h5 class="pq-fancy-box-title">Best Pricings</h5>
+                                    <p>It is a long established fact that a reader a page when layout.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-6 col-md-6 col-sm-6 mt-5 mt-sm-0">
+                            <div class="pq-icon-box pq-style-8">
+                                <div class="pq-icon">
+                                    <a href="#"><i class="flaticon-charging-battery-1"></i></a>
+                                </div>
+                                <div class="pq-icon-box-content">
+                                    <h5 class="pq-fancy-box-title">24 X 7 Charge</h5>
+                                    <p>It is a long established fact that a reader a page when layout.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row pq-mt-60 pq-mb-30 g-0">
+                        <div class="col-lg-12">
+                            <iframe class="pq-video"
+                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                                title="YouTube video player"
+                                src="https://www.youtube.com/embed/XHOmBV4js_E?controls=1&amp;rel=0&amp;playsinline=0&amp;modestbranding=0&amp;autoplay=0&amp;widget_referrer=https%3A%2F%2Fmedicate.peacefulqode.com%2Fhome-3%2F&amp;enablejsapi=1&amp;origin=https%3A%2F%2Fmedicate.peacefulqode.com&amp;widgetid=1"
+                                id="widget2"></iframe>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--All Services End-->
+
+    <!--Footer Start-->
+    <footer id="pq-footer">
+        <!-- <div class="pq-subscribe align-items-center">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xl-5 col-lg-4 col-md-4 col-sm-4">
+                        <div class="pq-subscribe-location align-items-center text-center">
+                            <a href="contact-us.html">
+                                <h4 class="pq-subscribe-title">Find Our near Branches </h4>
+                            </a>
+                            <i class="fas fa-globe-americas"></i>
+                        </div>
+                    </div>
+                    <div class="col-xl-2 col-lg-4 col-md-4 col-sm-4 center">
+                        <div class="pq-subscribe-contact">
+                            <div>
+                                <img src="images/footer/call.png" alt="subscribe-contact">
+                                <span>Call US On</span>
+                                <a href="tel:+1800001658">
+                                    <span>+1800-001-658</span>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-5 col-lg-4 col-md-4 col-sm-4">
+                        <div class="pq-subscribe-time align-items-center">
+                            <i class="far fa-clock"></i>
+                            <a href="contact-us.html">
+                                <h4 class="pq-subscribe-title text-center">24/7 Emergency Services </h4>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div> -->
+        <div class="pq-footer-style-1">
+            <div class="pq-footer-top">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-xl-6 col-md-6 col-sm-6">
+                            <div class="widget">
+                                <div class="row">
+                                    <div class="col-sm-12">
+                                        <img src="images/logos/header-logo.png" class="pq-footer-logo"
+                                            alt="gym-footer-logo">
+                                        <p>It is a long established fact that a reader by the readable content of a page
+                                            when looking at its layout.</p>
+                                        <div class="pq-footer-items">
+                                            <i class="fa fa-phone-alt"></i>
+                                            <div class="pq-footer-items-info">
+                                                <a href="tel:+1800001658">
+                                                    <span>+1800-001-658</span>
+                                                </a>
+                                            </div>
+                                        </div>
+                                        <div class="pq-footer-items">
+                                            <i class="fa fa-envelope"></i>
+                                            <div class="pq-footer-items-info">
+                                                <a href="mailto:info@earthev.com">
+                                                    <span>info@arthev.com</span>
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xl-3 col-md-6 col-sm-6">
+                            <div class="widget">
+                                <h1 class="footer-title">Our Services</h1>
+                                <div class="menu-our-services-container">
+                                    <ul id="menu-our-services" class="menu">
+                                        <li class="menu-item">
+                                            <a href="home-charger-services.html">Home charging</a>
+                                        </li>
+                                        <li class="menu-item">
+                                            <a href="public-charger-services.html">Public stations</a>
+                                        </li>
+                                        <li class="menu-item">
+                                            <a href="commarcial-driver-services.html">Commercial Systems</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xl-3 col-md-6 col-sm-6">
+                            <div class="widget">
+                                <h1 class="footer-title">Useful link</h1>
+                                <div class="menu-usefull-link-container">
+                                    <ul id="menu-usefull-link" class="menu">
+                                        <li class="menu-item">
+                                            <a href="index.html">Home</a>
+                                        </li>
+                                        <li class="menu-item">
+                                            <a href="about-us.html">About us</a>
+                                        </li>
+                                        <li class="menu-item">
+                                            <a href="contact-us.html">contact-us</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- <div class="col-xl-3 col-md-6 col-sm-6">
+                            <div class="widget">
+                                <div class="pq-subscribe-content">
+                                    <img src="images/footer/mail.png" alt="subscribe">
+                                    <h4 class="footer-title text-center">Newsletter</h4>
+                                    <p class="text-center">Sign up to get exclusive offers from our favorite brands</p>
+                                    <form novalidate>
+                                        <div class="row text-center">
+                                            <div class="col-lg-12">
+                                                <input type="email" name="EMAIL" placeholder="Your email address"
+                                                    required="">
+                                            </div>
+                                            <div class="col-lg-12">
+                                                <input type="submit" value="Subscribe">
+                                            </div>
+                                        </div>
+                                    </form>
+                                </div>
+                            </div>
+                        </div> -->
+                    </div>
+                </div>
+            </div>
+            <div class="pq-copyright-footer">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-12 align-self-center">
+                            <div class="col-md-12 align-self-center">
+                                <span class="pq-copyright"> Copyright 2022 ecofuel All Rights Reserved.</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!--Footer End-->
+
+    <!--Back To Top Start-->
+    <div id="back-to-top">
+        <a class="top" id="top" href="#top"> <i class="ion-ios-arrow-up"></i> </a>
+    </div>
+    <!--Back To Top End-->
+
+    <!--Jquery js-->
+    <script src="js/jquery.min.js"></script>
+    <!--Bootstrap js-->
+    <script src="js/bootstrap.min.js"></script>
+    <!--Owl Carousel js-->
+    <script src="js/owl.carousel.min.js"></script>
+    <!--isotope js-->
+    <script src="js/isotope.pkgd.min.js"></script>
+    <!--countTo js-->
+    <script src="js/jquery.countTo.min.js"></script>
+    <!--Maginfic-Popup js-->
+    <script src="js/jquery.magnific-popup.min.js"></script>
+    <!-- Animation JS -->
+    <script src="js/wow.min.js"></script>
+    <!--Custom js-->
+    <script src="js/custom.js"></script>
+</body>
+
+</html>
